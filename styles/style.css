@@ -1,0 +1,180 @@
+/*Global Styling*/
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300;500;700&display=swap");
+:root {
+  --Alata: "Alata", sans-serif;
+  --Josefin: "Josefin Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*Hero Section*/
+header {
+  min-height: 90vh;
+  background-image: url("../images/desktop/image-hero.jpg");
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0 14rem;
+}
+
+nav {
+  color: #fff;
+  display: flex;
+  padding-top: 3rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: var(--Alata);
+  font-size: 3vw;
+}
+
+.navlinks {
+  display: flex;
+  gap: 2rem;
+}
+
+.navlink {
+  font-family: var(--Josefin);
+  font-weight: 500;
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.hero-content {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: var(--Josefin);
+  font-size: 5vw;
+  font-weight: 100;
+  border: 1.5px solid #fff;
+  width: clamp(350px, 45vw, 1000px);
+  padding: 2rem;
+  margin-top: 7rem;
+}
+
+section {
+  min-height: 90vh;
+}
+
+.about {
+  display: flex;
+  padding: 10rem 2rem;
+  justify-content: center;
+}
+
+.about-image {
+  /* width: clamp(350px, 50vw, 1960px); */
+  align-self: flex-end;
+  min-height: 700px;
+}
+
+.about-content {
+  max-width: 40%;
+  font-family: var(--Josefin);
+  align-self: flex-end;
+  padding-left: 9rem;
+  padding-top: 9rem;
+  margin-left: -16.5rem;
+  background-color: #fff;
+}
+
+.about-content .heading {
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-weight: 100;
+}
+
+.about-content .description {
+  color: hsl(0, 0%, 55%);
+  max-width: 70%;
+  font-size: 1.25rem;
+  line-height: 1.7;
+  padding-top: 2rem;
+}
+
+/*Work Section*/
+.work {
+  padding: 0 10rem;
+}
+
+.work .heading {
+  font-family: var(--Josefin);
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+}
+
+.work .heading p {
+  font-size: 3vw;
+  font-weight: 100;
+}
+
+.work .heading button {
+  font-family: var(--Alata);
+  color: hsl(0, 0%, 0%);
+  border: 1.5px solid hsl(0, 0%, 0%);
+  cursor: pointer;
+  background-color: #fff;
+  text-transform: uppercase;
+  width: 150px;
+  font-size: 1.125rem;
+  letter-spacing: 0.125rem;
+}
+
+.grid-section {
+  padding-top: 10rem;
+  display: grid;
+  grid-template-columns: repeat(4, 350px);
+  gap: 10px;
+}
+
+.grid-section .card {
+  display: inline-block;
+  width: 350px;
+
+  position: relative;
+}
+
+.card::before {
+  position: absolute;
+  content: "";
+  min-width: 100%;
+  max-height: 95%;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.6) 20%,
+    rgba(0, 0, 0, 0.3) 70%
+  );
+  z-index: 1;
+  inset: 0;
+}
+
+.card img {
+  min-width: 100%;
+  object-fit: cover;
+}
+
+.card .tag {
+  position: absolute;
+  z-index: 2;
+  color: #fff;
+  bottom: 1rem;
+  left: 1rem;
+  font-family: var(--Josefin);
+  text-transform: uppercase;
+  width: 50%;
+  font-size: 3rem;
+}
