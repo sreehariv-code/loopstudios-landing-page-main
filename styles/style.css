@@ -135,7 +135,7 @@ section {
 }
 
 .grid-section {
-  padding-top: 10rem;
+  padding-top: 9rem;
   display: grid;
   grid-template-columns: repeat(4, 350px);
   gap: 10px;
