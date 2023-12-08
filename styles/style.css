@@ -107,7 +107,9 @@ section {
 
 /*Work Section*/
 .work {
-  padding: 0 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .work .heading {
@@ -115,6 +117,7 @@ section {
   text-transform: uppercase;
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .work .heading p {
@@ -134,11 +137,15 @@ section {
   letter-spacing: 0.125rem;
 }
 
+.grid-wrapper {
+  padding-bottom: 10rem;
+}
+
 .grid-section {
   padding-top: 9rem;
   display: grid;
   grid-template-columns: repeat(4, 350px);
-  gap: 10px;
+  gap: 3rem;
 }
 
 .grid-section .card {
@@ -152,7 +159,7 @@ section {
   position: absolute;
   content: "";
   min-width: 100%;
-  max-height: 95%;
+  max-height: 99%;
   background: linear-gradient(
     90deg,
     rgba(0, 0, 0, 0.6) 20%,
@@ -171,10 +178,56 @@ section {
   position: absolute;
   z-index: 2;
   color: #fff;
-  bottom: 1rem;
-  left: 1rem;
+  bottom: 3rem;
+  left: 3rem;
   font-family: var(--Josefin);
   text-transform: uppercase;
-  width: 50%;
+  width: 80%;
   font-size: 3rem;
+  font-weight: 100;
+}
+
+/*Footer*/
+footer {
+  background: #000;
+  min-height: 18svh;
+  padding: 2.5rem;
+}
+
+.footer-wrapper {
+  max-width: 80%;
+  margin-inline: auto;
+}
+
+.footer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-header h2 {
+  color: #fff;
+  font-family: var(--Alata);
+  font-size: 1.6vw;
+  margin-bottom: 2rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 1.125rem;
+}
+
+.social-links .links img {
+  width: 36px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.copyright-tag {
+  color: hsl(0, 0%, 41%);
+  font-family: var(--Josefin);
 }
