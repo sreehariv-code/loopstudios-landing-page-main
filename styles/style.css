@@ -289,3 +289,25 @@ footer {
     min-height: 90vh;
   }
 }
+
+@media screen and (min-width: 991px) {
+  .navlink {
+    position: relative;
+  }
+  .navlink::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #fff;
+    bottom: 0;
+    transition: width 0.25s ease-in;
+    transform-origin: center;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1.75rem;
+  }
+  .navlink:hover::before {
+    width: 100%;
+  }
+}
