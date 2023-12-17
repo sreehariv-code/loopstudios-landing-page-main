@@ -105,7 +105,7 @@ nav {
 .work {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .work .heading {
@@ -157,7 +157,7 @@ nav {
 
 .grid-section .card {
   display: inline-block;
-  width: 350px;
+  min-width: 20%;
 
   position: relative;
 }
@@ -243,7 +243,7 @@ footer {
 
 @media screen and (max-width: 1600px) {
   header {
-    min-height: 50vh;
+    min-height: 70vh;
   }
   .about-image {
     min-height: 550px;
@@ -262,9 +262,16 @@ footer {
   .about-content .heading {
     font-size: 3rem;
   }
+
+  .grid-section {
+    grid-template-columns: repeat(3, 350px);
+  }
 }
 
 @media screen and (max-width: 1200px) {
+  header {
+    padding: 0 2rem;
+  }
   .about {
     flex-direction: column;
   }
@@ -282,6 +289,33 @@ footer {
   .about-content .description {
     max-width: 100%;
   }
+
+  .grid-section {
+    grid-template-columns: repeat(2, 350px);
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .grid-section {
+    display: flex;
+    flex-direction: column;
+    /* padding-inline: 10rem; */
+  }
+
+  .grid-section .card {
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .work-wrapper {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  .work .heading p {
+    font-size: 3rem;
+  }
 }
 
 @media screen and (min-width: 1599px) {
@@ -290,7 +324,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 992px) {
   .navlink {
     position: relative;
   }
@@ -309,5 +343,8 @@ footer {
   }
   .navlink:hover::before {
     width: 100%;
+  }
+  .work {
+    align-items: center;
   }
 }
