@@ -297,9 +297,8 @@ footer {
 
 @media screen and (max-width: 991px) {
   .grid-section {
-    display: flex;
-    flex-direction: column;
-    /* padding-inline: 10rem; */
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
   }
 
   .grid-section .card {
