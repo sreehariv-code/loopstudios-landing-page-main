@@ -37,6 +37,9 @@
           <a href="" class="navlink">Products</a>
           <a href="" class="navlink">Support</a>
         </div>
+        <button class="toggle-btn">
+          <img src="./images/icon-hamburger.svg" alt="" />
+        </button>
       </nav>
       <div class="hero-content">
         <p>Immersive experiences that deliver</p>
@@ -65,131 +68,161 @@
             <p>Our creations</p>
             <button>See All</button>
           </div>
-          <div class="grid-wrapper">
-            <div class="grid-section">
-              <a title="card-link" href="#" class="card">
-                <figure>
-                  <picture>
-                    <source
-                      media="(max-width:991px)"
-                      srcset="/images/mobile/image-deep-earth.jpg"
-                    />
-                    <img src="./images/desktop/image-deep-earth.jpg" alt="" />
-                  </picture>
-                  <figcaption class="tag">Deep Earth</figcaption>
-                </figure>
-              </a>
-              <a title="card-link" href="#" class="card">
+          <section class="grid-section">
+            <a href="" class="card-link">
+              <figure>
                 <picture>
                   <source
-                    media="(max-width:991px)"
-                    srcset="/images/mobile/image-night-arcade.jpg"
-                  />
-                  <img src="./images/desktop/image-night-arcade.jpg" alt="" />
-                </picture>
-                <p class="tag">Night Arcade</p>
-              </a>
-              <a title="card-link" href="#" class="card">
-                <picture>
-                  <source
-                    media="(max-width:991px)"
-                    srcset="/images/mobile/image-soccer-team.jpg"
-                  />
-                  <img src="./images/desktop/image-soccer-team.jpg" alt="" />
-                </picture>
-                <p class="tag">Soccer team VR</p>
-              </a>
-              <a title="card-link" href="#" class="card">
-                <picture>
-                  <source
-                    media="(max-width:991px)"
-                    srcset="/images/mobile/image-grid.jpg"
-                  />
-                  <img src="./images/desktop/image-grid.jpg" alt="" />
-                </picture>
-                <p class="tag">
-                  The <br />
-                  grid
-                </p>
-              </a>
-              <a title="card-link" href="#" class="card">
-                <picture>
-                  <source
-                    media="(max-width:991px)"
-                    srcset="/images/mobile/image-from-above.jpg"
-                  />
-                  <img src="./images/desktop/image-from-above.jpg" alt="" />
-                </picture>
-                <p class="tag">From up above VR</p>
-              </a>
-              <a title="card-link" href="#" class="card">
-                <picture>
-                  <source
-                    media="(max-width:991px)"
-                    srcset="/images/mobile/image-pocket-borealis.jpg"
+                    media="(min-width:700px)"
+                    srcset="/images/desktop/image-deep-earth.jpg"
                   />
                   <img
-                    src="./images/desktop/image-pocket-borealis.jpg"
+                    class="card-image"
+                    src="./images/mobile/image-deep-earth.jpg"
                     alt=""
                   />
                 </picture>
-                <p class="tag">Pocket borealis</p>
-              </a>
-              <a title="card-link" href="#" class="card">
+                <figcaption>Deep Earth</figcaption>
+              </figure>
+            </a>
+            <a href="" class="card-link">
+              <figure>
                 <picture>
                   <source
-                    media="(max-width:991px)"
-                    srcset="/images/mobile/image-curiosity.jpg"
+                    media="(min-width:700px)"
+                    srcset="/images/desktop/image-night-arcade.jpg"
                   />
-                  <img src="./images/desktop/image-curiosity.jpg" alt="" />
+                  <img
+                    class="card-image"
+                    src="./images/mobile/image-night-arcade.jpg"
+                    alt=""
+                  />
                 </picture>
-                <p class="tag">The curiosity</p>
-              </a>
-              <a title="card-link" href="#" class="card">
+                <figcaption>Night Arcade</figcaption>
+              </figure>
+            </a>
+            <a href="" class="card-link">
+              <figure>
                 <picture>
                   <source
-                    media="(max-width:991px)"
-                    srcset="/images/mobile/image-fisheye.jpg"
+                    media="(min-width:700px)"
+                    srcset="/images/desktop/image-soccer-team.jpg"
                   />
-                  <img src="./images/desktop/image-fisheye.jpg" alt="" />
+                  <img
+                    class="card-image"
+                    src="./images/mobile/image-soccer-team.jpg"
+                    alt=""
+                  />
                 </picture>
-                <p class="tag">Make it fisheye</p>
-              </a>
-            </div>
-          </div>
+                <figcaption>Soccer Team VR</figcaption>
+              </figure>
+            </a>
+            <a href="" class="card-link">
+              <figure>
+                <picture>
+                  <source
+                    media="(min-width:700px)"
+                    srcset="/images/desktop/image-grid.jpg"
+                  />
+                  <img
+                    class="card-image"
+                    src="./images/mobile/image-grid.jpg"
+                    alt=""
+                  />
+                </picture>
+                <figcaption>The Grid</figcaption>
+              </figure>
+            </a>
+            <a href="" class="card-link">
+              <figure>
+                <picture>
+                  <source
+                    media="(min-width:700px)"
+                    srcset="/images/desktop/image-from-above.jpg"
+                  />
+                  <img
+                    class="card-image"
+                    src="./images/mobile/image-from-above.jpg"
+                    alt=""
+                  />
+                </picture>
+                <figcaption>From Up Above VR</figcaption>
+              </figure>
+            </a>
+            <a href="" class="card-link">
+              <figure>
+                <picture>
+                  <source
+                    media="(min-width:700px)"
+                    srcset="/images/desktop/image-pocket-borealis.jpg"
+                  />
+                  <img
+                    class="card-image"
+                    src="./images/mobile/image-pocket-borealis.jpg"
+                    alt=""
+                  />
+                </picture>
+                <figcaption>Pocker Borealis</figcaption>
+              </figure>
+            </a>
+            <a href="" class="card-link">
+              <figure>
+                <picture>
+                  <source
+                    media="(min-width:700px)"
+                    srcset="/images/desktop/image-curiosity.jpg"
+                  />
+                  <img
+                    class="card-image"
+                    src="./images/mobile/image-curiosity.jpg"
+                    alt=""
+                  />
+                </picture>
+                <figcaption>The Curiosity</figcaption>
+              </figure>
+            </a>
+            <a href="" class="card-link">
+              <figure>
+                <picture>
+                  <source
+                    media="(min-width:700px)"
+                    srcset="/images/desktop/image-fisheye.jpg"
+                  />
+                  <img
+                    class="card-image"
+                    src="./images/mobile/image-fisheye.jpg"
+                    alt=""
+                  />
+                </picture>
+                <figcaption>Pocker Borealis</figcaption>
+              </figure>
+            </a>
+          </section>
         </div>
       </section>
     </main>
     <footer>
-      <div class="footer-wrapper">
-        <div class="footer-header">
-          <h2>loopstudios</h2>
-          <div class="social-links">
-            <a href="" aria-label="Facebook" title="Facebook" class="links"
-              ><img src="images/icon-facebook.svg" alt=""
-            /></a>
-            <a href="" aria-label="Twitter" title="Twitter" class="links"
-              ><img src="images/icon-twitter.svg" alt=""
-            /></a>
-            <a href="" aria-label="Pinterest" title="Pinterest" class="links"
-              ><img src="images/icon-pinterest.svg" alt=""
-            /></a>
-            <a href="" aria-label="Instagram" title="Instagram" class="links"
-              ><img src="images/icon-instagram.svg" alt=""
-            /></a>
-          </div>
+      <div class="nav-section">
+        <h2>loopstudios</h2>
+        <div class="navlinks">
+          <a href="" class="navlink">About</a>
+          <a href="" class="navlink">Careers</a>
+          <a href="" class="navlink">Events</a>
+          <a href="" class="navlink">Products</a>
+          <a href="" class="navlink">Support</a>
         </div>
-        <div class="navigation" role="navigation">
-          <div class="navlinks">
-            <a href="" class="navlink">About</a>
-            <a href="" class="navlink">Careers</a>
-            <a href="" class="navlink">Events</a>
-            <a href="" class="navlink">Products</a>
-            <a href="" class="navlink">Support</a>
-          </div>
-          <div class="copyright-tag">
-            © 2021 Loopstudios. All rights reserved.
-          </div>
+      </div>
+      <div class="link-section">
+        <div class="social-links">
+          <a href=""> <img src="./images/icon-facebook.svg" alt="" /> </a
+          ><a href=""> <img src="./images/icon-twitter.svg" alt="" /> </a
+          ><a href=""> <img src="./images/icon-pinterest.svg" alt="" /> </a
+          ><a href="">
+            <img src="./images/icon-instagram.svg" alt="" />
+          </a>
+        </div>
+        <div class="copyright">
+          <p>&copy;2021 Loopstudios. All rights reserved</p>
         </div>
       </div>
     </footer>
