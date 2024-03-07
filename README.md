@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/sreehariv-code/loopstudios-landing-page-main)
-- Live Site URL: [Add live site URL here](https://sreehariv-code.github.io/loopstudios-landing-page-main/)
+- Solution URL: [https://github.com/sreehariv-code/loopstudios-landing-page-main](https://github.com/sreehariv-code/loopstudios-landing-page-main)
+- Live Site URL: [https://sreehariv-code.github.io/loopstudios-landing-page-main/](https://sreehariv-code.github.io/loopstudios-landing-page-main/)
 
 ## My process
 
