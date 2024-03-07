@@ -48,8 +48,8 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@sreehariv-code](https://www.frontendmentor.io/profile/sreehariv-code)
+- LinkedIn - [@sreehari-p-v](https://www.linkedin.com/in/sreehari-p-v/)
 
 ## Acknowledgments
 
